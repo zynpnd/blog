@@ -7,11 +7,12 @@ Kullanılan temaya [buradan](https://startbootstrap.com/theme/clean-blog) ulaşa
 Ana Sayfa 
 ![octocat](./anasayfa.png)
 
-
+=======
 
 Login 
 ![octocat](./login.png)
 
+=======
 
 Admin Paneli
 ![octocat](./adminpaneli.png)
