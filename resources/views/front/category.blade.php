@@ -6,7 +6,7 @@
 
 <!-- Main Content -->
 
-        <div class="col-md-9  mx-auto">
+        <div class="col-md-9  ">
             @include('front.widgets.articleList')
         </div>
 

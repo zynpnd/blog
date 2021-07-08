@@ -20,7 +20,9 @@ class Articles extends Migration
             $table->longText('content');
             $table->string('image');
             $table->integer('hit')->default(0);
+            $table->integer('status')->default(0)->comment('0:pasif 1:aktif');
             $table->string('slug');
+            $table->softDeletes();
             $table->timestamps();
 
             $table->foreign('category_id')

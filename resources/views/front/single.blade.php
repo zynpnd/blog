@@ -5,7 +5,7 @@
 @section('content')
 
 
-            <div class="col-md-9 mx-auto">
+            <div class="col-md-9 ">
                 {!! $article->content !!}
                 <br/>  <br/>
                 <span class="text-danger">Okunma Sayısı : <b>{{$article->hit}}</b></span>
